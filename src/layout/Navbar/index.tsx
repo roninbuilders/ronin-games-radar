@@ -8,7 +8,8 @@ const Navbar = () => {
     <nav class={styles.navbar}>
       <div class={styles.container}>
         <a href="/" class={styles.logo}>
-          RoninGames
+        <img src="/ronin_blue.svg" alt="Logo" />
+          Ronin Games Radar
         </a>
         <button class={styles.menuButton} onClick={() => setMenuOpen(!menuOpen())}>
           ☰

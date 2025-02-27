@@ -20,6 +20,14 @@
   font-weight: bold;
   text-decoration: none;
   color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+	height: 30px;
 }
 
 .navLinks {
