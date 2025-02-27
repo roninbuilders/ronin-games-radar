@@ -1,7 +1,7 @@
 export const games = [
   {
     id: 1,
-    image: "https://cdn.axieinfinity.com/marketplace-website/banner/game/origins-banner-key-art.png",
+    image: "https://cdn.axieinfinity.com/marketplace-website/banner/game/origins-game.png",
     banner: "https://cdn.axieinfinity.com/marketplace-website/banner/game/origins-banner-key-art.png",
     name: "Axie Infinity: Origins",
     genre: ["Turn-based", "Strategy", "Adventure"],
@@ -19,21 +19,20 @@ export const games = [
   },
   {
     id: 2,
-    image: "https://cdn.axieinfinity.com/marketplace-website/banner/game/origins-banner-key-art.png",
-    banner: "https://cdn.axieinfinity.com/marketplace-website/banner/game/origins-banner-key-art.png",
-    name: "Epic Ronin Battle",
-    genre: ["MOBA", "PvP"],
-    isPlayable: false,
-    isVerified: false,
-    playableTime: "Q2 2025",
-    creator: "Ronin Studios",
+    image: "https://cdn.skymavis.com/mavis-hub/assets/1721977430-icon.png",
+    banner: "https://cdn.skymavis.com/mavis-hub/assets/1721977471-sc_2.jpg",
+    name: "Axie Classic",
+    genre: ["Turn-based", "Strategy"],
+    isPlayable: true,
+    isVerified: true,
+    creator: "Sky Mavis",
     socials: {
       website: "https://axieinfinity.com/",
       twitter: "https://twitter.com/AxieInfinity",
       youtube: "https://www.youtube.com/channel/UCbFwe3COkDrbNsbMyGNCsDg",
     },
-    platforms: ["Windows", "iOS", "Android", "macOS"],
+    platforms: ["Windows", "Android", "macOS"],
     description:
-      "An intense multiplayer online battle arena (MOBA) set in the Ronin universe, where players fight for supremacy...",
+      "Classic, released in December 2019, grew the Axie community from a ragtag band of a few hundred missionaries to millions. The game is structured as a turn-based card battler where players create teams of Axies to duke it out in the arena. Axies draw cards based on the body parts they posses and you must play these cards at the optimal time and order to maximize your chance of victory. Classic was the first game ever to distribute in-game resources as ERC20 tokens.",
   },
 ];
