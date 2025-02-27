@@ -87,7 +87,7 @@ const GameDetails = () => {
          
 
           <div class={styles.platforms}>
-          <strong>Supported Platforms:</strong>
+          <strong>Platforms:</strong>
           <div class={styles.platformIcons}>
             <Show when={game.platforms?.includes("Windows")}>
               <FaBrandsWindows size={24} />
