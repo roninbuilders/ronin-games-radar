@@ -61,17 +61,20 @@
   font-size: 0.9rem;
   opacity: 0.6;
   color: #aaa;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .genreContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .genreTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #333;
   color: white;
   font-size: 0.8rem;
