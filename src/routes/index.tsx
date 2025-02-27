@@ -6,9 +6,21 @@ import { games } from "../games";
 const MainView = () => {
   return (
     <main class={styles.main}>
-      <h2 class={styles.title}>Recent Games</h2>
+      <h2 class={styles.title}>Ready to Play</h2>
       <div class={styles.cardContainer}>
-        <For each={games}>{(game) => <GameCard {...game} />}</For>
+        <For each={games}>{(game) => {
+          if (game.isPlayable) {
+            return <GameCard {...game} />;
+          }
+        }}</For>
+      </div>
+      <h2 class={styles.title}>Upcoming Games</h2>
+      <div class={styles.cardContainer}>
+        <For each={games}>{(game) => {
+          if (!game.isPlayable) {
+            return <GameCard {...game} />;
+          }
+        }}</For>
       </div>
     </main>
   );

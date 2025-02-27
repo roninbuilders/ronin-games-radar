@@ -10,7 +10,7 @@
 
 .wrapper{
   padding: 2rem;
-	max-width: 900px;
+	max-width: 940px;
 }
 
 .backButton {
@@ -50,6 +50,7 @@
   font-size: 1rem;
 }
 
+.bannerCard,
 .detailsCard,
 .descriptionCard {
   background: #1a1a1a;
@@ -58,12 +59,19 @@
   margin-bottom: 1.5rem;
 }
 
+.bannerImage {
+  width: 100%;
+  border-radius: 12px;
+}
+
 h2 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .tags {
+  user-select: none;
+  margin-top: 1rem;
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
@@ -83,6 +91,10 @@ h2 {
   color: #ccc;
 }
 
+.info strong{
+  color: white;
+}
+
 .verified {
   display: flex;
   align-items: center;
@@ -90,4 +102,51 @@ h2 {
   color: #00aaff;
   font-size: 0.9rem;
   margin-top: 10px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #222;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.socialLink:hover {
+  background: #444;
+}
+
+.platforms {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+.platformIcons {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.platformIcons svg {
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.platformIcons svg:hover {
+  opacity: 1;
 }
