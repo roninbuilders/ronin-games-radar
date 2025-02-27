@@ -228,4 +228,59 @@ export const games = [
     description:
       "Wonder Wars is a free-to-play mobile strategy game developed by indie studio Hello Monster. Build decks by selecting a hero and six troops, engage in lane-based 3D battles, and play PvE or PvP game modes.",
   },
+  {
+    id: 13,
+    image: "/games/rumblekong_image.jpg",
+    banner: "/games/rumblekong_banner.png",
+    name: "Rumble Kong League",
+    genre: ["Basketball", "PvP"],
+    isPlayable: true,
+    isVerified: false,
+    playableTime: "",
+    creator: "",
+    socials: {
+      website: "https://www.rumblekongleague.com/",
+      twitter: "https://x.com/RumbleKongs",
+      discord: "https://discord.com/invite/rumblekongleague",
+    },
+    platforms: ["Android", "iOS"],
+    description:
+      "Rumble Kong League is a fast-paced 3v3 basketball game that blends sports action with Web3 innovation. Build teams of unique Kong NFTs and compete in casual matches or climb competitive leaderboards for rewards.",
+  },
+  {
+    id: 14,
+    image: "/games/lastmemories_image.png",
+    banner: "/games/lastmemories_banner.jpg",
+    name: "De:Lithe Last Memories",
+    genre: ["Rogue-like", "RPG"],
+    isPlayable: false,
+    isVerified: false,
+    playableTime: "",
+    creator: "enish",
+    socials: {
+      website: "https://lastmemories.io/en/",
+      twitter: "https://x.com/lastmemoriesen",
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "De:Lithe Last Memories is a roguelike MMORPG with fast-paced combat and strategic dungeon exploration where every battle is a test of skill and survival. Build, upgrade, and optimize their squads to face ever-evolving challenges in solo and multiplayer modes.",
+  },
+  {
+    id: 15,
+    image: "/games/sekai_glory_image.jpg",
+    banner: "/games/sekai_glory_banner.jpg",
+    name: "Sekai Glory",
+    genre: ["Trading Cards", "Gacha"],
+    isPlayable: false,
+    isVerified: false,
+    playableTime: "",
+    creator: "RNG Inc.",
+    socials: {
+      website: "https://www.sekaiglory.com/en",
+      twitter: "https://x.com/SekaiGlory",
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "Web3 anime trading card game (TCG) with a variety of game modes — including an auto-battler. Collect, strategize, and compete to ascend leaderboards and earn in-game rewards. Own cards and artifacts, and dive into each character’s unique abilities and lore.",
+  },
 ];

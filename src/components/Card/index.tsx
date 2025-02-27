@@ -11,7 +11,7 @@ type GameProps = {
   description: string
   isPlayable: boolean;
   isVerified: boolean;
-  playableTime?: string; // Optional
+  playableTime?: string;
 };
 
 const GameCard = (props: GameProps) => {
