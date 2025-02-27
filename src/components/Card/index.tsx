@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import { For, Show } from "solid-js";
+import { createSignal, For, Show } from "solid-js";
 import { FaSolidCircleCheck } from "solid-icons/fa";
 import { useNavigate } from "@solidjs/router";
 
@@ -8,6 +8,7 @@ type GameProps = {
   image: string;
   name: string;
   genre: string[]
+  banner?: string;
   description: string
   isPlayable: boolean;
   isVerified: boolean;
@@ -15,11 +16,24 @@ type GameProps = {
 };
 
 const GameCard = (props: GameProps) => {
-  const navigate = useNavigate();
-  const maxGenres = 2;
+  const navigate = useNavigate()
+  const maxGenres = 2
+  const [isPreloaded, setIsPreloaded] = createSignal(false)
+
+  const preloadImage = () => {
+    if (props.banner) {
+      setIsPreloaded(true)
+      const img = new Image()
+      img.src = props.banner
+    }
+  };
 
   return (
-    <div class={styles.card} onclick={() => navigate(`/game-details/${props.id}`)}>
+    <div class={styles.card}
+    onmouseenter={() => {
+      if (!isPreloaded()) preloadImage()
+    }}
+    onclick={() => navigate(`/game-details/${props.id}`)}>
       <div class={styles.imageContainer}>
         <img src={props.image} alt={props.name} class={styles.image} />
       </div>
