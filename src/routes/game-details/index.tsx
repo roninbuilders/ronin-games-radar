@@ -68,15 +68,17 @@ const GameDetails = () => {
 
         <h2>Details</h2>
           <div class={styles.info}>
-            <strong>Playable:</strong>{" "}
             {game.isPlayable
-              ? "Yes"
-              : `Releases: ${game.playableTime || "TBA"}`}
+              ? <><strong>Playable:</strong> Yes</>
+              : <><strong>Releases:</strong> {game.playableTime || "TBA"}</>
+              }
           </div>
 
+          <Show when={game.creator}>
           <div class={styles.info}>
             <strong>Developed by:</strong> {game.creator}
           </div>
+            </Show>
          
 
           <div class={styles.platforms}>
