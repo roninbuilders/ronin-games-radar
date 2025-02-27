@@ -77,7 +77,7 @@ export const games = [
   },
   {
     id: 5,
-    image: "https://aofweb.s3.ap-east-1.amazonaws.com/front/ahome/p1_m1.webp",
+    image: "/games/aof_image.jpg",
     banner: "https://aofweb.s3.ap-east-1.amazonaws.com/front/ahome/AOF/4.png",
     name: "Arena of Faith",
     genre: ["MOBA"],
@@ -94,5 +94,24 @@ export const games = [
     platforms: ["Windows", "iOS", "Android", "macOS"],
     description:
       "Web3 revolution start from MOBA. Empowering seamless global and cross-Platform connectivity, next-gen rendering, and secure decentralized settlements with POFS technology.",
+  },
+  {
+    id: 6,
+    image: "/games/fishing_frenzy_image.jpg",
+    banner: "/games/fishing_frenzy_banner.jpg",
+    name: "Fishing Frenzy",
+    genre: [],
+    isPlayable: false,
+    isVerified: false,
+    playableTime: "",
+    creator: "Uncharted",
+    socials: {
+      website: "https://fishingfrenzy.co/",
+      twitter: "https://x.com/FishingFrenzyCo",
+      discord: "https://discord.com/invite/unchartedgg",
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "Fight fierce enemies and build your empire as you explore the dawn of time in a post-apocalyptic RPG.",
   },
 ];
