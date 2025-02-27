@@ -8,8 +8,6 @@ Welcome to the **Ronin Games Radar**! This project showcases **all active and up
 
 We welcome contributions from the community! Follow the steps below to **add a new game** to the directory.
 
----
-
 ### **1️⃣ Fork & Clone the Repository**
 First, **fork this repository** and clone it to your local machine:
 
@@ -22,8 +20,6 @@ Then, create a new branch for your changes:
 ```sh
 git checkout -b add-<game-name>
 ```
-
----
 
 ### **2️⃣ Add Your Game to the `games.ts` File**
 All games are stored in the `src/games/index.ts` file. Open this file and add your game in the **JSON format** following this structure:
@@ -39,6 +35,7 @@ export const games = [
     genre: ["Turn-based", "Strategy", "Adventure"],
     isPlayable: true,
     isVerified: true,
+    playableTime: "",
     creator: "Sky Mavis",
     socials: {
       website: "https://axieinfinity.com/",
@@ -53,8 +50,6 @@ export const games = [
 ];
 ```
 
----
-
 ### **3️⃣ Commit & Push Your Changes**
 Once you've added the game, commit your changes:
 ```sh
@@ -62,8 +57,6 @@ git add .
 git commit -m "Added [Game Name] to games list"
 git push origin add-<game-name>
 ```
-
----
 
 ### **4️⃣ Open a Pull Request (PR)**
 1. **Go to your forked repository** on GitHub.  

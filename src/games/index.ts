@@ -7,6 +7,7 @@ export const games = [
     genre: ["Turn-based", "Strategy", "Adventure"],
     isPlayable: true,
     isVerified: true,
+    playableTime: "",
     creator: "Sky Mavis",
     socials: {
       website: "https://axieinfinity.com/",
@@ -25,6 +26,7 @@ export const games = [
     genre: ["Turn-based", "Strategy"],
     isPlayable: true,
     isVerified: true,
+    playableTime: "",
     creator: "Sky Mavis",
     socials: {
       website: "https://axieinfinity.com/",
