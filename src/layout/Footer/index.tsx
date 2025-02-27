@@ -17,9 +17,9 @@ const Footer = () => {
           </a>
         </div>
         <div class={styles.donation}>
-          <span>Donate: roninbuilders.ron</span>
+          <span>Support us: roninbuilders.ron</span>
         </div>
-        <p class={styles.copy}>© {new Date().getFullYear()} Ronin Builders. All rights reserved.</p>
+        <p class={styles.copy}>© {new Date().getFullYear()} Ronin Builders.</p>
       </div>
     </footer>
   );
