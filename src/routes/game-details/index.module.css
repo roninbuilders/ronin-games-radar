@@ -59,6 +59,11 @@
   margin-bottom: 1.5rem;
 }
 
+.descriptionCard p {
+  font-weight: 300;
+  margin-bottom: 21px;
+}
+
 .bannerImage {
   width: 100%;
   border-radius: 12px;
@@ -71,7 +76,7 @@ h2 {
 
 .tags {
   user-select: none;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
@@ -89,7 +94,7 @@ h2 {
 }
 
 .info {
-  margin-top: 10px;
+  margin-top: 1rem;
   font-size: 1rem;
   color: #ccc;
 }
@@ -148,6 +153,7 @@ h2 {
   display: flex;
   gap: 0.8rem;
   margin-top: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .platformIcons svg {
