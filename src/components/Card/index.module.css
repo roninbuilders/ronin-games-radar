@@ -52,6 +52,10 @@
   margin-top: 5px;
 }
 
+.verified svg{
+  margin-bottom: 0.1px;
+}
+
 .name {
   font-size: 1.2rem;
   margin: 8px 0;
@@ -78,7 +82,7 @@
   background: #333;
   color: white;
   font-size: 0.8rem;
-  padding: 4px 8px;
+  padding: 5px 9px 6px 9px;
   border-radius: 8px;
   font-weight: 500;
 }
