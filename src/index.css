@@ -48,7 +48,6 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: "URWDIN", sans-serif;
-  line-height: 1.6;
 }
 
 /* Links */
