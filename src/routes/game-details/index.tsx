@@ -1,7 +1,7 @@
 import { useParams } from "@solidjs/router";
 import { Show } from "solid-js";
 import styles from "./index.module.css";
-import { FaBrandsAndroid, FaBrandsApple, FaBrandsAppStoreIos, FaBrandsTwitter, FaBrandsWindows, FaBrandsYoutube, FaSolidCircleCheck, FaSolidLink } from "solid-icons/fa";
+import { FaBrandsAndroid, FaBrandsApple, FaBrandsAppStoreIos, FaBrandsDiscord, FaBrandsTwitter, FaBrandsWindows, FaBrandsYoutube, FaSolidCircleCheck, FaSolidLink } from "solid-icons/fa";
 import { games } from "../../games";
 
 const GameDetails = () => {
@@ -61,6 +61,11 @@ const GameDetails = () => {
               </a>
             </Show>
             
+            <Show when={game.socials?.discord}>
+              <a href={game.socials?.discord} target="_blank" rel="noopener noreferrer" class={styles.socialLink}>
+                <FaBrandsDiscord size={18} /> Discord
+              </a>
+            </Show>
           </div>
         </div>
 
@@ -68,30 +73,32 @@ const GameDetails = () => {
 
         <h2>Details</h2>
           <div class={styles.info}>
-            <strong>Playable:</strong>{" "}
             {game.isPlayable
-              ? "Yes"
-              : `Releases: ${game.playableTime || "TBA"}`}
+              ? <><strong>Playable:</strong> Yes</>
+              : <><strong>Releases:</strong> {game.playableTime || "TBA"}</>
+              }
           </div>
 
+          <Show when={game.creator}>
           <div class={styles.info}>
             <strong>Developed by:</strong> {game.creator}
           </div>
+            </Show>
          
 
           <div class={styles.platforms}>
           <strong>Supported Platforms:</strong>
           <div class={styles.platformIcons}>
-            <Show when={game.platforms.includes("Windows")}>
+            <Show when={game.platforms?.includes("Windows")}>
               <FaBrandsWindows size={24} />
             </Show>
-            <Show when={game.platforms.includes("macOS")}>
+            <Show when={game.platforms?.includes("macOS")}>
               <FaBrandsApple size={24} />
             </Show>
-            <Show when={game.platforms.includes("iOS")}>
+            <Show when={game.platforms?.includes("iOS")}>
               <FaBrandsAppStoreIos size={24} />
             </Show>
-            <Show when={game.platforms.includes("Android")}>
+            <Show when={game.platforms?.includes("Android")}>
               <FaBrandsAndroid size={24} />
             </Show>
           </div>

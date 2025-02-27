@@ -7,6 +7,8 @@ type GameProps = {
   id: number;
   image: string;
   name: string;
+  genre: string[]
+  description: string
   isPlayable: boolean;
   isVerified: boolean;
   playableTime?: string; // Optional
@@ -19,7 +21,6 @@ const GameCard = (props: GameProps) => {
     <div class={styles.card} onclick={() => navigate(`/game-details/${props.id}`)}>
       <div class={styles.imageContainer}>
         <img src={props.image} alt={props.name} class={styles.image} />
-        <span class={styles.id}>#{props.id}</span>
       </div>
       <div class={styles.info}>
         <Show when={props.isVerified}>
