@@ -1,4 +1,4 @@
-import { useParams } from "@solidjs/router";
+import { useNavigate, useParams } from "@solidjs/router";
 import { Show } from "solid-js";
 import styles from "./index.module.css";
 import { FaBrandsAndroid, FaBrandsApple, FaBrandsAppStoreIos, FaBrandsDiscord, FaBrandsTwitter, FaBrandsWindows, FaBrandsYoutube, FaSolidCircleCheck, FaSolidLink } from "solid-icons/fa";
@@ -6,7 +6,9 @@ import { games } from "../../games";
 
 const GameDetails = () => {
   const params = useParams();
+  const navigate = useNavigate()
   const game = games.find((g) => g.id.toString() === params.id);
+
 
   if (!game) {
     return <div class={styles.notFound}>Game not found.</div>;
@@ -15,7 +17,7 @@ const GameDetails = () => {
   return (
     <section class={styles.container}>
       <div class={styles.wrapper}>
-        <button class={styles.backButton} onclick={() => history.back()}>
+        <button class={styles.backButton} onclick={() => navigate('/')}>
           ← Back to Browse Games
         </button>
 
