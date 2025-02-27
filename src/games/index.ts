@@ -112,6 +112,44 @@ export const games = [
     },
     platforms: ["Windows", "iOS", "Android", "macOS"],
     description:
-      "Fight fierce enemies and build your empire as you explore the dawn of time in a post-apocalyptic RPG.",
+      "Fishing Frenzy is a cozy mobile fishing RPG that blends relaxing gameplay with a player-driven economy. Cast your line, reel in a variety of fish, and work your way up the competitive leaderboards!.",
+  },
+  {
+    id: 7,
+    image: "/games/nifty_image.jpg",
+    banner: "/games/nifty_banner.jpg",
+    name: "Nifty Island",
+    genre: [],
+    isPlayable: false,
+    isVerified: false,
+    playableTime: "",
+    creator: "",
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    socials: {
+      website: "https://www.niftyisland.com/",
+      twitter: "https://x.com/Nifty_Island",
+      discord: "https://discord.com/invite/4WT9BbEK82",
+    },
+    description:
+      "Nifty Island is a community-driven gaming platform where players can build and play games together, explore player-created islands, and compete for compelling rewards. Build your own island. Invite your friends. Win rewards. Play any game that you can imagine and engage in prize-fueled competitions. The internet's best communities play on Nifty Island.",
+  },
+  {
+    id: 8,
+    image: "/games/pirate_nation_image.png",
+    banner: "/games/pirate_nation_banner.webp",
+    name: "Pirate Nation",
+    genre: ["RPG", "Adventure"],
+    isPlayable: true,
+    isVerified: false,
+    playableTime: "",
+    creator: "",
+    socials: {
+      website: "https://piratenation.game/",
+      twitter: "https://x.com/PirateNation",
+      discord: "https://discord.com/invite/piratenation",
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "A fully onchain RPG, filled with high seas adventure, treasure, & unexpected surprises.",
   },
 ];

@@ -84,16 +84,16 @@ const GameDetails = () => {
           <div class={styles.platforms}>
           <strong>Supported Platforms:</strong>
           <div class={styles.platformIcons}>
-            <Show when={game.platforms.includes("Windows")}>
+            <Show when={game.platforms?.includes("Windows")}>
               <FaBrandsWindows size={24} />
             </Show>
-            <Show when={game.platforms.includes("macOS")}>
+            <Show when={game.platforms?.includes("macOS")}>
               <FaBrandsApple size={24} />
             </Show>
-            <Show when={game.platforms.includes("iOS")}>
+            <Show when={game.platforms?.includes("iOS")}>
               <FaBrandsAppStoreIos size={24} />
             </Show>
-            <Show when={game.platforms.includes("Android")}>
+            <Show when={game.platforms?.includes("Android")}>
               <FaBrandsAndroid size={24} />
             </Show>
           </div>
