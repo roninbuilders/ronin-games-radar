@@ -1,0 +1,93 @@
+.container {
+  background: #121212;
+  color: white;
+  min-height: calc(100vh - 190px);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper{
+  padding: 2rem;
+	max-width: 900px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.backButton:hover {
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+	object-fit: cover;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.genre {
+  color: #bbb;
+  font-size: 1rem;
+}
+
+.detailsCard,
+.descriptionCard {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #00aaff;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

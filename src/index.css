@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "URWDIN";
+	src: url("/fonts/URWDIN-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "URWDIN";
+	src: url("/fonts/URWDIN-Demi.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "URWDIN";
+	src: url("/fonts/URWDIN-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "URWDIN";
+	src: url("/fonts/URWDIN-Black.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+	--font-primary: "URWDIN", sans-serif;
+  --background-color: #121212;
+  --card-bg: #1a1a1a;
+  --text-color: #ffffff;
+  --text-muted: #b3b3b3;
+  --primary-color: #00aaff;
+  --border-radius: 12px;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "URWDIN", sans-serif;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px; /* Thin scrollbar */
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+  

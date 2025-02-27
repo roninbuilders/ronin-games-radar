@@ -1,4 +1,5 @@
 /* @refresh reload */
+import './index.css';
 import { render } from 'solid-js/web';
 
 import { RouteDefinition, Router } from '@solidjs/router';
@@ -9,6 +10,10 @@ export const routes: RouteDefinition[] = [
   {
     path: '/',
     component: lazy(() => import('./routes/index.js')),
+  },
+  {
+    path: '/game-details/:id',
+    component: lazy(() => import('./routes/game-details/index.js')),
   },
   {
     path: '**',
