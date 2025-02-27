@@ -283,4 +283,61 @@ export const games = [
     description:
       "Web3 anime trading card game (TCG) with a variety of game modes — including an auto-battler. Collect, strategize, and compete to ascend leaderboards and earn in-game rewards. Own cards and artifacts, and dive into each character’s unique abilities and lore.",
   },
+  {
+    id: 16,
+    image: "https://storage.googleapis.com/sm-prod-mavis-hub-cdn/assets/1710172953-wf_logo.png",
+    banner: "https://storage.googleapis.com/sm-prod-mavis-hub-cdn/assets/1710172983-artgallery_1.jpg",
+    name: "WILD FOREST",
+    genre: ["Strategy"],
+    isPlayable: true,
+    isVerified: true,
+    playableTime: "",
+    creator: "Zillion Whales",
+    socials: {
+      website: "https://playwildforest.io/",
+      twitter: "https://twitter.com/playwildforest",
+      youtube: "https://www.youtube.com/watch?v=jIXNoshQa3o"
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "Wild Forest is a single-screen real-time strategy game where players face off in fast, action-packed PvP battles. Compete by capturing areas, building armies, and outsmarting opponents to win by destroying their main base. ",
+  },
+  {
+    id: 17,
+    image: "https://cdn.skymavis.com/mavis-hub/assets/1733296882-storelogo256x256.jpg",
+    banner: "https://cdn.skymavis.com/mavis-hub/assets/rag-monster-world/game-asset-db3a1cab-e448-4405-a3b3-6cb51a63b3db.jpg",
+    name: "Ragnarok Monster World",
+    genre: ["Strategy"],
+    isPlayable: true,
+    isVerified: true,
+    playableTime: "",
+    creator: "ZERO X AND",
+    socials: {
+      website: "https://ragmon.gg/",
+      twitter: "https://x.com/ragmonNFT",
+      youtube: "https://www.youtube.com/watch?v=jyCfdJGhIhw"
+    },
+    platforms: ["iOS", "Android",],
+    description:
+      "Ragnarok: Monster World is a Tower Defense & Monster Collecting game that officially uses the 'Ragnarok Online' IP. As the first to create official FT/NFTs with this iconic IP, it marks a groundbreaking venture. Begin your journey now!",
+  },
+  {
+    id: 18,
+    image: "https://cdn.skymavis.com/mavis-hub/assets/1735180905-logoformavis.png",
+    banner: "https://cdn.skymavis.com/mavis-hub/assets/1735295890-overviewformavis.png",
+    name: "Pixel Heroes Adventure",
+    genre: ["RPG", "MMORPG"],
+    isPlayable: true,
+    isVerified: true,
+    playableTime: "",
+    creator: "Z5 Games",
+    socials: {
+      website: "https://dapp.pixelheroes.io/",
+      twitter: "https://x.com/PixelHeroesMMO",
+      youtube: "https://www.youtube.com/watch?v=x915mSaB-DU"
+    },
+    platforms: ["iOS", "Android",],
+    description:
+      "Pixel Heroes Adventure is a world where humans and toys live together with various magical properties The peaceful toys of Pixel Heroes Adventure became corrupted by evil magic and started attacking humans. In response, humans studied magic to gain the power to resist the evil monsters and those who wielded this mysterious power were called HeroZ. Some toys gained power without being corrupted by evil magic and they were called ToyZ. Embark on an epic adventure to save the world of HeroZ and ToyZ",
+  },
 ];
