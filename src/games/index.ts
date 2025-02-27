@@ -12,7 +12,7 @@ export const games = [
     socials: {
       website: "https://axieinfinity.com/",
       twitter: "https://twitter.com/AxieInfinity",
-      youtube: "https://www.youtube.com/channel/UCbFwe3COkDrbNsbMyGNCsDg",
+      youtube: "https://www.youtube.com/watch?v=X2z_YIeettE",
     },
     platforms: ["Windows", "iOS", "Android", "macOS"],
     description:
@@ -31,10 +31,48 @@ export const games = [
     socials: {
       website: "https://axieinfinity.com/",
       twitter: "https://twitter.com/AxieInfinity",
-      youtube: "https://www.youtube.com/channel/UCbFwe3COkDrbNsbMyGNCsDg",
+      youtube: "https://www.youtube.com/watch?v=H0Dh_uvCuFU",
     },
     platforms: ["Windows", "Android", "macOS"],
     description:
       "Classic, released in December 2019, grew the Axie community from a ragtag band of a few hundred missionaries to millions. The game is structured as a turn-based card battler where players create teams of Axies to duke it out in the arena. Axies draw cards based on the body parts they posses and you must play these cards at the optimal time and order to maximize your chance of victory. Classic was the first game ever to distribute in-game resources as ERC20 tokens.",
+  },
+  {
+    id: 3,
+    image: "https://storage.googleapis.com/sm-prod-mavis-hub-cdn/assets/1706002040-homeland_app_icon.png",
+    banner: "https://storage.googleapis.com/sm-prod-mavis-hub-cdn/assets/1706004536-screenshot_1.jpg",
+    name: "Axie Infinity: Homeland",
+    genre: ["Strategy", "Adventure", "Build & Battle"],
+    isPlayable: true,
+    isVerified: true,
+    playableTime: "",
+    creator: "Sky Mavis",
+    socials: {
+      website: "https://axieinfinity.com/",
+      twitter: "https://twitter.com/AxieInfinity",
+      youtube: "https://www.youtube.com/watch?v=ZeySoIxFCJQ",
+    },
+    platforms: ["Windows", "Android", "macOS"],
+    description:
+      "Start your own village on the breathtaking planet of Lunacia. Lead your axies as they harvest, craft, and build towards a stronger homeland. Embrace infinity!",
+  },
+  {
+    id: 4,
+    image: "https://cdn.skymavis.com/mavis-hub/assets/1733298752-pixels-logo.png",
+    banner: "https://cdn.skymavis.com/mavis-hub/assets/1733300981-pixels.jpg",
+    name: "Pixel",
+    genre: ["Strategy", "Adventure", "Build & Battle"],
+    isPlayable: true,
+    isVerified: true,
+    playableTime: "",
+    creator: "Banger Inc",
+    socials: {
+      website: "https://www.pixels.xyz/",
+      twitter: "https://x.com/pixels_online",
+      youtube: "https://www.youtube.com/watch?v=i6dt095woS8",
+    },
+    platforms: ["Windows", "Android", "macOS"],
+    description:
+      "Pixels is a vast, pixel-art-inspired MMORPG where your farming journey is just the beginning of an exciting adventure. In this expansive world, every pixel tells a story, and every choice you make shapes your destiny. Explore a living, breathing universe where you can cultivate your land, interact with a dynamic ecosystem, and engage in a community-driven experience like no other.",
   },
 ];
