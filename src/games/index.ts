@@ -209,4 +209,23 @@ export const games = [
     description:
       "Pixels is a vast, pixel-art-inspired MMORPG where your farming journey is just the beginning of an exciting adventure. In this expansive world, every pixel tells a story, and every choice you make shapes your destiny. Explore a living, breathing universe where you can cultivate your land, interact with a dynamic ecosystem, and engage in a community-driven experience like no other.",
   },
+  {
+    id: 12,
+    image: "/games/wonderwars_image.jpg",
+    banner: "/games/wonderwars_banner.jpg",
+    name: "Wonder Wars",
+    genre: ["free-to-play", "PvE", "PvP"],
+    isPlayable: true,
+    isVerified: false,
+    playableTime: "",
+    creator: "Hello Monster",
+    socials: {
+      website: "https://wonderwars.game/",
+      twitter: "https://x.com/WonderWarsGame",
+      discord: "https://discord.com/invite/nD2ZYDCXGV",
+    },
+    platforms: ["Android", "iOS"],
+    description:
+      "Wonder Wars is a free-to-play mobile strategy game developed by indie studio Hello Monster. Build decks by selecting a hero and six troops, engage in lane-based 3D battles, and play PvE or PvP game modes.",
+  },
 ];

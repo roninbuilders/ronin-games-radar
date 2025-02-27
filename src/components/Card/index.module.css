@@ -59,5 +59,24 @@
 
 .playable {
   font-size: 0.9rem;
+  opacity: 0.6;
   color: #aaa;
+  margin-top: 6px;
 }
+
+.genreContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.genreTag {
+  background: #333;
+  color: white;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+

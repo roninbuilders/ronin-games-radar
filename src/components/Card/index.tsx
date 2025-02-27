@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import { Show } from "solid-js";
+import { For, Show } from "solid-js";
 import { FaSolidCircleCheck } from "solid-icons/fa";
 import { useNavigate } from "@solidjs/router";
 
@@ -16,6 +16,7 @@ type GameProps = {
 
 const GameCard = (props: GameProps) => {
   const navigate = useNavigate();
+  const maxGenres = 2;
 
   return (
     <div class={styles.card} onclick={() => navigate(`/game-details/${props.id}`)}>
@@ -27,6 +28,11 @@ const GameCard = (props: GameProps) => {
           <span class={styles.verified}><FaSolidCircleCheck size={14} /> Verified by Sky Mavis</span>
         </Show>
         <h3 class={styles.name}>{props.name}</h3>
+        <div class={styles.genreContainer}>
+        <For each={props.genre.slice(0, maxGenres)}>
+            {(tag) => <span class={styles.genreTag}>{tag}</span>}
+          </For>
+        </div>
         <p class={styles.playable}>
           {props.isPlayable ? "Playable Now" : `Playable: ${props.playableTime || "Soon"}`}
         </p>
