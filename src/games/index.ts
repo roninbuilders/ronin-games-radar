@@ -152,4 +152,23 @@ export const games = [
     description:
       "A fully onchain RPG, filled with high seas adventure, treasure, & unexpected surprises.",
   },
+  {
+    id: 9,
+    image: "/games/sunflower_image.png",
+    banner: "/games/sunflower_banner.png",
+    name: "Sunflower Land",
+    genre: ["Farm", "Pixel Art"],
+    isPlayable: true,
+    isVerified: false,
+    playableTime: "",
+    creator: "",
+    socials: {
+      website: "https://sunflower-land.com/",
+      twitter: "https://x.com/0xSunflowerLand",
+      discord: "https://discord.com/invite/sunflowerland",
+    },
+    platforms: ["Windows", "iOS", "Android", "macOS"],
+    description:
+      "Online farming game. Farm, Gather, Cook, Raise Animals, Fish, Craft & Trade.",
+  },
 ];

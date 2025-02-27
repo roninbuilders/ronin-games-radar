@@ -1,7 +1,7 @@
 import { useParams } from "@solidjs/router";
 import { Show } from "solid-js";
 import styles from "./index.module.css";
-import { FaBrandsAndroid, FaBrandsApple, FaBrandsAppStoreIos, FaBrandsTwitter, FaBrandsWindows, FaBrandsYoutube, FaSolidCircleCheck, FaSolidLink } from "solid-icons/fa";
+import { FaBrandsAndroid, FaBrandsApple, FaBrandsAppStoreIos, FaBrandsDiscord, FaBrandsTwitter, FaBrandsWindows, FaBrandsYoutube, FaSolidCircleCheck, FaSolidLink } from "solid-icons/fa";
 import { games } from "../../games";
 
 const GameDetails = () => {
@@ -61,6 +61,11 @@ const GameDetails = () => {
               </a>
             </Show>
             
+            <Show when={game.socials?.discord}>
+              <a href={game.socials?.discord} target="_blank" rel="noopener noreferrer" class={styles.socialLink}>
+                <FaBrandsDiscord size={18} /> Discord
+              </a>
+            </Show>
           </div>
         </div>
 
