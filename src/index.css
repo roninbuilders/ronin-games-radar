@@ -1,31 +1,3 @@
-@font-face {
-	font-family: "URWDIN";
-	src: url("/fonts/URWDIN-Light.woff2") format("woff2");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "URWDIN";
-	src: url("/fonts/URWDIN-Demi.woff2") format("woff2");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "URWDIN";
-	src: url("/fonts/URWDIN-Bold.woff2") format("woff2");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "URWDIN";
-	src: url("/fonts/URWDIN-Black.woff2") format("woff2");
-	font-weight: 900;
-	font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +6,6 @@
 
 /* Root Variables */
 :root {
-	--font-primary: "URWDIN", sans-serif;
   --background-color: #121212;
   --card-bg: #1a1a1a;
   --text-color: #ffffff;
@@ -47,7 +18,7 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: "URWDIN", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Links */

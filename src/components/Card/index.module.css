@@ -50,11 +50,12 @@
   gap: 4px;
   color: #00aaff;
   font-size: 0.9rem;
+  font-weight: 500;
   margin-top: 5px;
 }
 
 .verified svg{
-  margin-bottom: 0.1px;
+  margin-bottom: 0.8px;
 }
 
 .name {
@@ -85,6 +86,6 @@
   font-size: 0.8rem;
   padding: 5px 9px 6px 9px;
   border-radius: 8px;
-  font-weight: 500;
+  font-weight: 600;
 }
 

@@ -20,6 +20,7 @@
   cursor: pointer;
   font-size: 1rem;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .backButton:hover {
@@ -48,6 +49,7 @@
 .genre {
   color: #bbb;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .bannerCard,
@@ -91,6 +93,7 @@ h2 {
   padding: 5px 10px 6px 10px;
   border-radius: 8px;
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .info {
@@ -110,10 +113,11 @@ h2 {
   color: #00aaff;
   font-size: 0.9rem;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .verified svg{
-  margin-bottom: 0.1px;
+  margin-bottom: 0.45px;
 }
 
 .socials {
@@ -133,6 +137,7 @@ h2 {
   padding: 8px 12px;
   border-radius: 6px;
   text-decoration: none;
+  font-weight: 500;
   font-size: 0.9rem;
   transition: background 0.3s ease;
 }
