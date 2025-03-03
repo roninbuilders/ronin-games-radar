@@ -4,7 +4,7 @@ import { FaSolidCircleCheck } from "solid-icons/fa";
 import { useNavigate } from "@solidjs/router";
 
 type GameProps = {
-  id: number;
+  id: string;
   image: string;
   name: string;
   genre: string[]
